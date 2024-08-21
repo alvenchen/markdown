@@ -75,7 +75,7 @@ __Emission rate__: The overall emission rate depends on the emission rate of eac
 
 Online computing nodes receive token incentives, distributed based on the number of tasks completed by each node.
 __TRR Supply__: [TBD]% of the total supply (equivalent to [TBD]% of the total computing node incentives).
-__Emission Rate__: Similar to Bitcoin's halving every four years. The amount of newly emissioned \$HOL decreases exponentially per cycle. Let $\lambda_{TRR}$ be the decay constant, where $\lambda_{TRR}<1$. Therefore, the reward amount for epoch $k$, where $k>=1$, is given by $$TRR^k=(1-\lambda_{TRR})\lambda_{TRR}^{k-1}\cdot{TRR}$$
+__Emission Rate__: Similar to Bitcoin's halving every four years. The amount of newly emissioned $\$HOL$ decreases exponentially per cycle. Let $\lambda_{TRR}$ be the decay constant, where $\lambda_{TRR}<1$. Therefore, the reward amount for epoch $k$, where $k>=1$, is given by $$TRR^k=(1-\lambda_{TRR})\lambda_{TRR}^{k-1}\cdot{TRR}$$
 
 __Distribution__: New issuance per epoch is shared among active computing nodes in the network. In a nutshell, nodes that complete more tasks will earn a larger portion of the incentives.  
 __Unlocking__: TRR are unlocked linearly based on the amount of tasks completed. Nodes that complete more tasks will have shorter reward vesting period; conversely, nodes with fewer completed tasks will have longer vesting period for the full reward. If a node wishes to exit early for liquidity, [TBD]% of its incentive earned will be deducted and burned.
