@@ -78,7 +78,7 @@ Online computing nodes receive token incentives, distributed based on the number
 __TRR Supply__: [TBD]% of the total supply (equivalent to [TBD]% of the total computing node incentives).
 
 __Emission Rate__: Similar to Bitcoin's halving every four years. The amount of newly emissioned \$HOL decreases exponentially per cycle. Let $\lambda_{TRR}$ be the decay constant, where $\lambda_{TRR}<1$. Therefore, the reward amount for epoch $k$, where $k>=1$, is given by 
-$$TRR^k=(1-\lambda_{TRR})\lambda_{TRR}^{k-1}\cdot{TRR}$$
+$TRR^k=(1-\lambda_{TRR})\lambda_{TRR}^{k-1}\cdot{TRR}$
 
 __Distribution__: New issuance per epoch is shared among active computing nodes in the network. In a nutshell, nodes that complete more tasks will earn a larger portion of the incentives.  
 
