@@ -89,7 +89,8 @@ Even when there are no tasks in the network, the computing power network aims to
 
 __BR Supply__: [TBD]% of the total supply (equivalent to [TBD]% of the total computing node incentives).
 
-__Target Emission Rate__: Similar to that of TRR, but with a different decay constant $\lambda_{TRR}$. The reward amount for epoch $k$, where $k\geq1$, is given by $$BR^k=(1-\lambda_{BR})\lambda_{BR}^{k-1}\cdot{BR}$$
+__Target Emission Rate__: Similar to that of TRR, but with a different decay constant $\lambda_{TRR}$. The reward amount for epoch $k$, where $k\geq1$, is given by 
+$$BR^k=(1-\lambda_{BR})\lambda_{BR}^{k-1}\cdot{BR}$$
 
 However, the actual emission rate is adjusted according to the number of active computing nodes in the network. Simply put, if the number of active nodes reaches a target, the actual emission rate will decline.
 $$Actual\space Emission\space Rate<Target\space Emission\space Rate$$
